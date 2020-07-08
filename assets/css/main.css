@@ -1,0 +1,200 @@
+/* FONT FACE */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-italic';
+    src: url('../fonts/Poppins-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('../fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+
+/* GLOBAL */
+body {
+    font-family: 'Poppins', sans-serif, arial;
+    background-color: #eeeeee;
+    margin-bottom: 5rem;
+}
+
+.container-app {
+    width: 32%;
+    margin: 0 auto;
+    /* display: flex; */
+    /* position: relative; */
+}
+
+:focus {
+    outline: none;
+}
+
+a {
+    color: #f60;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f60;
+    border-color: #f60;
+    text-decoration: none;
+}
+
+
+/* HEAD SM */
+.head-sm {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px 0;
+    color: #666;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.head-sm .head-sm-child h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.head-sm .head-sm-child small {
+    font-size: 10px;
+}
+
+/* HEAD PRODUK */
+.head-produk {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* PREVENT PRODUK */
+.prevent-produk .title {
+    color: #f60;
+    font-size: 11px;
+}
+
+.prevent-produk .produk {
+    padding-top: .5rem;
+}
+
+.prevent-produk .title ._title {
+    font-weight: 600;
+    color: #666;
+    font-size: 12px;
+}
+
+.prevent-produk .produk img {
+    border-radius: 10px;
+}
+
+
+.marketplace {
+    padding: 20px 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.marketplace .list-group {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.marketplace .list-group {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.marketplace .list-group .list-group-item {
+    text-align: center;
+}
+
+.marketplace .list-group.left .list-group-item {
+    /* border-right: 0px solid transparent !important; */
+    border-right-width: 0px;
+}
+
+.marketplace .list-group .list-group-item {
+    height: 50px;
+}
+
+.marketplace .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #f60;
+}
+
+
+/* atletica */
+.atletica {
+    padding: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.atletica .title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.atletica-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    color: #666;
+}
+
+footer .copy {
+    font-size: 10px;
+    padding: 20px 0;
+    border-bottom: .1px solid #ddd;
+}
+
+footer .title {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+footer .btnFooter {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+footer .btnFooter .btn {
+    font-size: 10px;
+    border: 1px solid #666;
+    padding: 6px 40px;
+}
+
+footer .btnFooter .btn:hover {
+    background-color: #f60;
+    color: #fff;
+    border-color: #f60;
+}
+
+footer .footer_small ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .footer_small ul li {
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 5px;
+}
